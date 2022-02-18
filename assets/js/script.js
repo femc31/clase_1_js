@@ -65,3 +65,9 @@ console.log('la suma de los numeros es: ' + (numeroUno + numeroDos));
 //aritmeticos: + - * / %
 //comparacion: < > <= >= != == === !==
 //caracteres: ?: || 
+
+//templete string: interpolacion placeholder
+var nombre = prompt('Ingrese su nombre');
+console.log('bienvenido ' +nombre);
+//la interpolacion SI O SI se trabaja con el back til o tilde hacia atras ``
+console.log(`bienvenido ${nombre}`);
